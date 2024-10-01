@@ -5,7 +5,7 @@ import './ItemDetails.css';
 function SupplierDetails() {
     return (
         <div className='container main mt-4'>
-        <h1 className='main-title'>Supplier Details</h1>
+            <h1 className='main-title'>Supplier Details</h1>
             <form className='main-form mt-4'>
                 <div className='row'>
                     <div className='col'>
@@ -32,7 +32,7 @@ function SupplierDetails() {
                     <div className='col'>
                         <label>State</label>
                         <select>
-                        <option>USA</option>
+                            <option>USA</option>
                             <option>UK</option>
                             <option>INDAI</option>
                         </select>
@@ -52,12 +52,12 @@ function SupplierDetails() {
                     </div>
                 </div>
                 <div className='row'>
-                <div className='col'>
+                    <div className='col'>
                         <label>Email Address</label>
                         <input type='text' placeholder='Enter email address'></input>
                         <p>valid email format</p>
                     </div>
-                    
+
                 </div>
             </form>
         </div>

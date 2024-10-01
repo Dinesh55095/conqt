@@ -19,10 +19,10 @@ function Header(props) {
       </nav>
 
       <div className='checkbox-wrapper mt-4'>
-      <input type='checkbox' checked={props.item}  onChange={(e)=> props.setItem(e.target.checked)} />
-      <label className='label-left'>Item</label>
-      <input type='checkbox'  checked={props.supplier} onChange={(e)=> props.setSupplier(e.target.checked)} />
-      <label className='label-right'>Supplier</label>
+        <input type='checkbox' checked={props.item} onChange={(e) => props.setItem(e.target.checked)} />
+        <label className='label-left'>Item</label>
+        <input type='checkbox' checked={props.supplier} onChange={(e) => props.setSupplier(e.target.checked)} />
+        <label className='label-right'>Supplier</label>
       </div>
     </header>
 
