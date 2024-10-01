@@ -10,12 +10,8 @@ import GetDataTable from './Components/getDataTable';
 function App() {
   const [item, setItem] = useState(true);
   const [supplier, setSupplier] = useState(false);
-
-
   const [itemName, setInemName] = useState("");
-  console.log("itemName---- ", itemName)
   const [itemQuantity, setItemQuantity] = useState("");
-
   const [unitPrice, setUnitPrice] = useState("");
   const [dateSubmit, setDateSubmit] = useState("");
 

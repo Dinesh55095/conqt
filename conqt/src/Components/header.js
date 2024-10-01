@@ -2,9 +2,6 @@ import { React, useState } from 'react';
 import './header.css';
 
 function Header(props) {
-  // const [item, setItem] = useState(false);
-  // const [supplier, setSupplier] = useState(false);
-  // console.log(item)
 
   return (
     <header>

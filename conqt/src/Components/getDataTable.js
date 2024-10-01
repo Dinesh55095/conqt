@@ -2,10 +2,7 @@ import { React, useState, useEffect } from 'react';
 import './getDataTable.css';
 const GetDataTable = () => {
     const [data, setData] = useState([]);
-
     const [responseData, setResponseData] = useState(null);
-
-
     const payload = {
         itemDetails: {
             itemName: "Mac Book",

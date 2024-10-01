@@ -1,7 +1,6 @@
 import React from 'react'
 import './SubmittedData.css';
 
-
 function SubmittedData() {
     return (
         <div className='container mt-4 text-center'>
